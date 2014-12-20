@@ -1,0 +1,8 @@
+## Interface: 50400
+## Title: Probably - Flavors by Imogen
+## Notes: ProbablyEngine Custom PvP and PvE Rotations
+## Dependencies: Probably
+
+rotation.lua
+paladin/retribution/f_light_p.lua
+paladin/retribution/f_light_e.lua
