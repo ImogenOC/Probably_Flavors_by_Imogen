@@ -54,7 +54,7 @@ local seals = {
 			"modifier.multitarget",
 			"player.area(10).enemies >= 4" 
 		}}
-	}, "!talent(7, 1)" }
+	}, "!talent(7, 1)" },
 }
 
 local singleTarget = {
@@ -81,7 +81,7 @@ local cleaveTarget = {
 	{ "Execution Sentence", "target.health.actual > 100000" },
 	{ "Divine Storm", {
 		"player.buff(Final Verdict)",
-		"player.buff(Divine Crusader)"
+		"player.buff(Divine Crusader)",
 	}},
 	{ "Divine Storm", "player.buff(Divine Purpose)" },
 	{ "Templar's Verdict", "player.holypower = 5" },
@@ -99,7 +99,7 @@ local multiTarget = {
 	{ "Execution Sentence", "target.health.actual > 100000" },
 	{ "Divine Storm", {
 		"player.buff(Final Verdict)",
-		"player.buff(Divine Crusader)"
+		"player.buff(Divine Crusader)",
 	}},
 	{ "Divine Storm", "player.buff(Divine Purpose)" },
 	{ "Divine Storm", "player.buff(Final Verdict)" },
