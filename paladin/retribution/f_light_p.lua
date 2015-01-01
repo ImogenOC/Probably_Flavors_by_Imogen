@@ -4,8 +4,8 @@ ProbablyEngine.rotation.register_custom(70, "Flavor of Light[PvP]", {
 --------------
 -- Keybinds --
 --------------
--- Speed of Light
-{ "85499", "modifier.control" },
+-- Flash of Light
+{ "19750", "modifier.control" },
 -- Fist of Justice
 { "105593", "modifier.shift" },
 -- Divine Shield
